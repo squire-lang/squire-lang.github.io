@@ -1,0 +1,28 @@
+@font-face {
+    font-family: "OldLondon";
+    src: url("fonts/OldLondon.ttf");
+}
+
+@font-face {
+    font-family: "Menlo";
+    src: url("fonts/Menlo-Regular.woff");
+}
+
+* {
+    color: black;
+    font-family: 'Menlo';
+}
+
+h1 {
+    font-family: "OldLondon";
+    font-size: 60px;
+    text-align: center;
+}
+
+a:hover, a:focus {
+    text-decoration: none;
+}
+
+p {
+    padding-left: 110px;
+}
